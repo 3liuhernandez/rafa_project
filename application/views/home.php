@@ -21,7 +21,7 @@
     <nav> 
         <ul class="cont-ul">
 
-            <li><a>">INICIO</a></li>   
+            <li><a>INICIO</a></li>   
             <li class="user">USUARIO 
             
                 <ul class="ul-firts">
