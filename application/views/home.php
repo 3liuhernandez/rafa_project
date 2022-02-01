@@ -19,7 +19,7 @@
         </div>
     </div>
     <nav> 
-        <ul class="cont-ul">
+        <ul class="casdasdont-ul">
 
             <li><a>">INICIO</a></li>
             <li class="user">USUARIO
@@ -38,12 +38,5 @@
         <section id = "container">
             <h1>Bienvenidos</h1>
         </section>
-
-
-
-        <footer>
-            <h1> este es el footer </h1>
-        </footer>
 </body>
 </html>
-        
