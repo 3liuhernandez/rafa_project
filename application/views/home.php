@@ -22,7 +22,7 @@
         <ul class="cont-ul">
 
             <li><a>">INICIO</a></li>   
-            <li class="user">USUARIO 
+            <li class="user">USUARIO
             
                 <ul class="ul-firts">
                     
@@ -38,7 +38,12 @@
         <section id = "container">
             <h1>Bienvenidos</h1>
         </section>
-    
+
+
+
+        <footer>
+            <h1> este es el footer </h1>
+        </footer>
 </body>
 </html>
         
