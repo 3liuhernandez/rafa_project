@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="<?php echo base_url('lib/css/styles.css');?>">
-</head>
+    </head>
 <body>
 <header> 
     <div class="header">
@@ -18,7 +18,8 @@
             <a><img class="close"src="" alt="Salir del sistema" title="Salir"></a>
         </div>
     </div>
-    <nav> 
+    <nav>
+
         <ul class="cont-ul">
 
             <li><a>INICIO</a></li>   
@@ -34,6 +35,7 @@
             </li>
         </ul>
     </nav>
+    
 </header>
         <section id = "container">
             <h1>Bienvenidos</h1>

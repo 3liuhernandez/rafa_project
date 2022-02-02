@@ -9,3 +9,5 @@ $route['translate_uri_dashes'] = FALSE;
 $route ['/'] = 'welcome';
 
 $route ['home'] = 'HomeController';
+
+$route ['login'] = 'Login_controller';
