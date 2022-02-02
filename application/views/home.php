@@ -18,13 +18,12 @@
             <a><img class="close"src="" alt="Salir del sistema" title="Salir"></a>
         </div>
     </div>
-    <nav>
-
+    <nav> 
         <ul class="cont-ul">
 
-            <li><a>INICIO</a></li>   
-            <li class="user">USUARIO 
-            
+            <li><a>">INICIO</a></li>
+            <li class="user">USUARIO
+
                 <ul class="ul-firts">
                     
                     <li><a>Nuevo Usuario</a></li>
@@ -40,7 +39,5 @@
         <section id = "container">
             <h1>Bienvenidos</h1>
         </section>
-    
 </body>
 </html>
-        

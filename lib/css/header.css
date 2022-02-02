@@ -1,0 +1,121 @@
+/* HEADER STYLE */
+header.row.header_row {
+    background: url('../images/header/banner_.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    padding: 0 10%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+header.row.header_row div.col-md {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+header.row.header_row div#container_brand .header_title {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+header.row.header_row div#container_brand .header_title .header_subtitle {
+    font-weight: 300;
+}
+
+header.row.header_row div#container_user {
+    justify-content: flex-end;
+}
+
+header.row.header_row div#container_user span.username {
+    color: #fff;
+    font-size: 1.7em;
+    margin-right: 7%;
+}
+
+header.row.header_row div#container_user img {
+    max-width: 40px;
+    width: 100%;
+}
+/* END HEADER */
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    header.row.header_row div#container_brand .header_title {
+        font-size: 2em;
+    }
+    header.row.header_row div#container_user span.username {
+        font-size: 1.4em;
+    }
+    header.row.header_row div#container_user img {
+        max-width: 35px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #applicant_container_fluid {
+        padding: 0;
+    }
+    header.row.header_row {
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0 5%;
+    }
+
+    header.row.header_row div#container_brand .header_title {
+        font-size: 2em;
+    }
+    header.row.header_row div#container_user span.username {
+        font-size: 1.2em;
+    }
+    header.row.header_row div#container_user img {
+        max-width: 30px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    header.row.header_row {
+        padding: 0 5%;
+        height: 150px;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    header.row.header_row div.col-md {justify-content: center;}
+    header.row.header_row div#container_brand .header_title{
+        font-size: 2em;
+    }
+    header.row.header_row div#container_user{
+        justify-content: center;
+    }
+    header.row.header_row div#container_user span.username{
+        font-size: 1.4em;
+    }
+    header.row.header_row div#container_user img {
+        max-width: 30px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 320px) */
+@media (max-width: 320px) {
+    header.row.header_row div#container_brand .header_title {
+        font-size: 1.3em;
+    }
+    header.row.header_row div#container_user span.username{
+        font-size: 1.0em;
+    }
+}
